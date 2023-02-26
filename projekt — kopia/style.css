@@ -1,0 +1,436 @@
+body{
+    font-family: "Roboto","Arial","sans-serif";
+}
+.row{
+    width: 1140px;
+    box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;/*ja masz  wewnątrz float to dodaj tą ceche ktor apowoduje że ten element 
+    sie rozciągnie*/
+}
+.row-f{
+    width: 100%;
+    box-sizing: border-box;
+}
+.title{
+    width: 50%;
+    float: left;
+    padding: 30px 0px;
+}
+h1{
+    margin: 0px;
+    font-size: 35px;
+}
+
+
+.nav{
+    width: 50%;
+    float: left;
+    padding: 30px 0px;
+    text-align: right;
+    border: none;
+    background-color: white;
+}
+.header-left{
+    width: 50%;
+}
+.back-1{
+    background: url('img/dsmin.jpg') no-repeat;
+    background-position-y:center ;
+    height: 500px;
+}
+.h2-header{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 3rem;
+}
+.butt {
+    border-style: none;
+    height: 50px;
+    font-size: 20px;
+    border-radius: 20px;
+    background-color: black;
+    color: white;
+    transition: 0.3s;
+    margin: 27px auto 0 0;
+    padding: 15px 40px 16px 40px;
+    
+}
+.a{
+    text-decoration: none;
+    color: white;
+    transition: 0.3s;
+}
+.a:hover{
+    color: black;
+}
+
+.butt:hover{
+    background-color: white;
+    color: black;
+
+}
+.butt:hover{
+    color: grey;
+}
+span{
+    color: rgb(64, 192, 192);
+}
+.info-3-1,.info-3-2,.info-3-3{
+    width: 33.33%;
+    background-color: rgb(0, 0, 0);
+    float: left;
+    color: white;
+    text-align: center;
+    height: 400px;
+    padding-top: 100px;
+    box-sizing: border-box;
+}
+.info-3-2{
+
+    background-color: rgb(52, 193, 193);
+
+}
+.info-3-3{
+
+    background-color: rgb(30, 103, 103);
+ 
+}
+.p-1{
+    text-align: center;
+    font-style: italic;
+    font-size: 1.125rem;
+    width: 360px;
+    margin: 26px auto 45px;
+}
+.p-2{
+    text-align: center;
+    font-style: italic;
+    font-size: 1.125rem;
+    width: 550px;
+    margin: 26px auto 45px;
+}
+.p-3{
+    text-align: center;
+    font-style: italic;
+    font-size: 1.125rem;
+    width: 550px;
+    margin: 26px auto 45px;
+}
+.kotwica{
+    margin-top: 140px;
+    padding: 0px;
+}
+.h2-section{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1.75rem;
+    text-align: center;
+}
+.butt-2{
+    border-style: none;
+    color: black;
+    background-color: white;
+    text-decoration: none;
+    height: 50px;
+    font-size: 20px;
+    border-radius: 0px;
+    transition: 0.3s;
+    margin: 27px auto 0 0;
+    padding: 15px 40px 16px 40px;
+    border-style: solid;
+    border: 2px solid;
+    border-color:rgb(172, 172, 172) ;
+}
+.butt-2:hover{
+    border-color:rgb(53, 53, 53) ;
+}
+.a-2{
+    text-decoration: none;
+    color: black;
+    transition: 0.3s;
+    
+}
+.bett{
+    padding-bottom: 100px;
+}
+
+.back-2{
+    background-position-y:center ;
+    height: 500px;
+    background: url('img/Bez\ tytułu.png')no-repeat;
+    width: 50%;
+    margin-right: 0px;
+    padding: 0px;
+}
+.image{
+    width: 50%;
+    float: left;
+    
+}
+.info-4{
+    width: 50%;
+    height: 626px;
+    background-color: aqua;
+    float: left;
+    color: white;
+    text-align: center;
+    box-sizing: border-box;
+    padding-top: 100px;
+    
+}
+.butt-3{
+    border-style: none;
+    height: 50px;
+    font-size: 20px;
+    border-radius: 20px;
+    background-color: white;
+    color: aqua;
+    transition: 0.3s;
+    margin: 27px auto 0 0;
+    padding: 15px 40px 16px 40px;
+}
+.a-3{
+    color: aqua;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.butt-3:hover{
+    background-color: aqua;
+}
+.a-3:hover{
+    color: white;
+}
+#info-2-l{
+    height: 630px;
+}
+.h2-section-2{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1.75rem;
+    text-align: center;
+    padding-top: 10px;
+}
+#info-3{
+    height: 400px;
+}
+.p-algin{
+    text-align: center;
+}
+.ikonki{
+    height: 500px;
+}
+.ikona{
+    width: 33.33%;
+    float: left;
+    box-sizing: border-box;
+    padding-left: 150px;
+    filter:grayscale(1);
+    transition: 0.4s;
+    
+}
+.ikona:hover{
+    filter: none;
+}
+.colorful{
+    transition: 1s;
+    filter: blur(1px);
+}
+.colorful:hover{
+    filter: none;
+}
+.butt-4{
+    border-style: none;
+    color: black;
+    background-color: white;
+    text-decoration: none;
+    height: 50px;
+    font-size: 20px;
+    border-radius: 0px;
+    transition: 0.3s;
+    margin: 27px auto 0 0;
+    padding: 15px 40px 16px 40px;
+    border-style: solid;
+    border: 2px solid;
+    border-color:aqua;
+}
+.butt-4:hover{
+    border-color:rgb(106, 158, 158) ;
+}
+.a-4{
+    color: black;
+    text-decoration: none;
+    transition: 0.3s;
+}
+#ikony{
+    padding-bottom: 50px;
+}
+.info-5{
+    width: 50%;
+    height: 626px;
+    background-color: rgb(238, 238, 238);
+    float: left;
+    color: white;
+    text-align: center;
+    box-sizing: border-box;
+    padding-top: 100px;
+}
+.image-2{
+    width: 50%;
+    float: right;
+    overflow: hidden;
+    margin: auto;
+    padding: 0;
+}
+#info-2-r>.image-2{
+    height: 626px;
+}
+#info-2-r{
+    height: 626px;
+}
+.h2-section-3{
+    color: black;
+    font-size: 60px;
+}
+.black{
+    color: black;
+}
+.butt-5{
+    border-style: none;
+    height: 50px;
+    font-size: 20px;
+    border-radius: 20px;
+    background-color: aqua;
+    color: white;
+    transition: 0.3s;
+    margin: 27px auto 0 0;
+    padding: 15px 40px 16px 40px;
+}
+.a-5{
+    color: rgb(238, 238, 238);
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.butt-5:hover{
+    background-color: rgb(238, 238, 238);
+}
+.a-5:hover{
+    color: black;
+}
+#today{
+    background-color: aqua;
+    width: 100%;
+    height: 204px;
+}
+.h2-today{
+    color: white;
+    font-size:30px;
+    box-sizing: border-box;
+    margin-top: 0px;
+    padding-top:50px;
+    padding-left:150px;
+}
+.p-4{
+    width: 800px;
+    color: white;
+    margin-left:150px ;
+}
+.butt-6{
+    border-style: none;
+    height: 50px;
+    font-size: 20px;
+    border-radius: 20px;
+    background-color: white;
+    color: aqua;
+    transition: 0.3s;
+    margin-top: -70px;
+    margin-right: 150px;
+    margin-left:200px ;
+    padding: 15px 40px 16px 40px;
+    float: right;
+    position: absolute;
+}
+.a-6{
+    color: aqua;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.butt-6:hover{
+    background-color: aqua;
+}
+.a-6:hover{
+    color: white;
+}
+.absolute{
+    position: absolute
+}
+#business{
+    width: 100%;
+    height: 607px;
+}
+.h2-business{   
+    text-align: center;
+    font-size: 40px;
+}
+.pustka{
+    width: 100%;
+    height: 370px;
+}
+.butt-7{
+    border-style: none;
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+    text-decoration: none;
+    height: 50px;
+    font-size: 20px;
+    border-radius: 0px;
+    transition: 0.3s;
+    margin: 27px auto 0 0;
+    padding: 15px 40px 16px 40px;
+    border-style: solid;
+    border: 2px solid;
+    border-color:rgb(0, 0, 0);
+    
+}
+.butt-7:hover{
+    border-color:rgb(255, 255, 255) ;
+    background-color: white;
+}
+.a-7{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    transition: 0.3s;
+}
+.a-7{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    transition: 0.3s;
+}
+.a-7:hover{
+    color: black;
+}
+#stopka{
+    background-color: black;
+    color: white;
+    width: 100%;
+    height: 9rem;
+    box-sizing: border-box;
+    padding-top:70px ;
+    text-align: center;
+}
+#end{
+    text-align: center;
+    box-sizing: border-box;
+    width: 100%;
+    height: 7rem;
+    background-color: rgb(134, 134, 134);
+    padding-top: 50px;
+}
+
+.podrkeslenie{
+    color:rgb(64, 192, 192) ;
+}
+#kot122{
+    position: fixed;
+}
